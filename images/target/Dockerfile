@@ -1,3 +1,3 @@
 FROM damonbarry/base:latest
 
-ENTRYPOINT ["echo", "damonbarry/base"]
+ENTRYPOINT echo "target, COUNTER=$COUNTER"

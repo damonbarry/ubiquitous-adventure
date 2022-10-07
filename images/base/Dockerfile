@@ -1,3 +1,5 @@
 FROM ubuntu:latest
 
-ENTRYPOINT ["echo", "ubuntu"]
+ENV COUNTER=1
+
+ENTRYPOINT echo "base, COUNTER=$COUNTER"
